@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order/Reserve</title>
+  <link rel="stylesheet" href="css.css">
+  <style>
+  </style>
+</head>
+<body>
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <div>
+        <a href="index.html"><img src="cafelogo.png" alt="Cafe Logo" class="navbar-logo"></a>
+        <p>Home</p>
+      </div>
+      <ul class="menu-items">
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="home-content" id="home-page">
+    <div class="name">
+      <h1>Welcome to CD's Café</h1>
+      <p>Your cozy corner for delightful treats and coffee!</p>
+    </div>
+    <div class="angle-down-icon">
+      <a href="#about"><i class="fas fa-angle-down"></i></a>
+    </div>
+  </div>
+</header>
+
+
+<section class="order-info">
+  <div class="container">
+    <h2>Welcome to CD Cafe!</h2>
+    <p>Ready to order some delicious food or reserve a table?</p>
+    <p>Explore our menu below or fill out the reservation form.</p>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<section class="menu">
+  <div class="container">
+    <h2>Our Menu</h2>
+    <ul class="menu-list">
+      <li>
+        <img src="espresso.jpg" alt="Espresso">
+        <div class="item-details">
+          <h3>Espresso</h3>
+          <p>$3.50</p>
+        </div>
+      </li>
+      <li>
+        <img src="latte.jpg" alt="Latte">
+        <div class="item-details">
+          <h3>Caramel Latte</h3>
+          <p>$4.50</p>
+        </div>
+      </li>
+      <li>
+        <img src="tea.jpg" alt="Chai Tea">
+        <div class="item-details">
+          <h3>Chai Tea</h3>
+          <p>$3.00</p>
+        </div>
+      </li>
+      <li>
+        <img src="smoothie.jpg" alt="Smoothie">
+        <div class="item-details">
+          <h3>Berry Smoothie</h3>
+          <p>$5.00</p>
+        </div>
+      </li>
+      <li>
+        <img src="croissant.jpg" alt="Croissant">
+        <div class="item-details">
+          <h3>Butter Croissant</h3>
+          <p>$2.50</p>
+        </div>
+      </li>
+      <li>
+        <img src="muffin.jpg" alt="Muffin">
+        <div class="item-details">
+          <h3>Blueberry Muffin</h3>
+          <p>$2.00</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<section class="reservation">
+  <div class="container">
+    <div class="section-box">
+      <h2>Reservation Form</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required><br><br>
+        <button type="submit">Submit Reservation</button>
+      </form>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2024 CD's Café. All Rights Reserved.</p>
+    <p>1234 Main Street, City, Country | Phone: 123-456-7890 | Email: info@cdscafe.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
